@@ -1,14 +1,13 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <title>Minha segunda experiência de RA usando o AR.js</title>
+    <title>Minha segunda experiência de RA usando o AR.js e o A-frame, com marcador hiro e imagem.</title>
     <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>  
     <script src="https://cdn.jsdelivr.net/gh/AR-js-org/AR.js/aframe/build/aframe-ar.min.js"></script>
   </head>
   <body style="margin: 0; overflow: hidden;">
     <a-scene vr-mode-ui="enabled: false" embedded arjs="debugUIEnabled: false">
       <a-marker preset="hiro">
-        <a-image src="foto_quixada.png" rotation="-90 0 0" width="3" height="1.5"></a-image>
+        <a-image src="bandeira.png" position="0 0.5 0" rotation="-90 0 0" width="1.5" height="1"></a-image>
       </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
@@ -17,9 +16,8 @@
 </html>
 
 
-<!--
-<!DOCTYPE html>
-<html>
+
+<!-- <html>
   <head>
     <title>Minha primeira experiência de RA usando o AR.js</title>
     <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>  
@@ -34,5 +32,4 @@
     </a-scene>
     
   </body>
-</html>
--->
+</html> -->
